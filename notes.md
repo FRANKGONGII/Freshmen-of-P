@@ -39,9 +39,12 @@
     what pydoc shows have an order like this: 1. the annotation at the top of the *py file 2. all classes in this module
     3. all functions in this module 4. all variables in the module 5. the source file
 11) about file_function: .+close : close the file and preserve / .+read : read the content of the file 
-     / .+readline read some lines of the file / .+truncate empty the file / .+write(stuff) write stuff into the file
+     .+readline read some lines of the file (in order 1 2 3 ...), need to remember line number  
+     .+truncate empty the file  
+     .+write(stuff) write stuff into the file
+     .+seek put the file_index to a certain place -> f.seek(a, b)
 12) if we want to check a file after we rewrite something, we need to close it first, because the content does not truly
     be written into the file yet.
 13) split('char or string') we can use method split to cut a string by index in split
-14) 
+14) about function: 1. begin with def 2. : 3. no same variable name 4. indent  
     
