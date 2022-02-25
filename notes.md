@@ -47,4 +47,19 @@
     be written into the file yet.
 13) split('char or string') we can use method split to cut a string by index in split
 14) about function: 1. begin with def 2. : 3. no same variable name 4. indent  
+15) very interesting : 
+    def break_words(stuff):
+    words = stuff.split(' ')
+    return words
+    after using a function like this, we can get many words in variablie "words", as following:
+    'All', 'good', 'things', 'come', 'to', 'those', 'who', 'wait', now words is a list
+16) pop() :
+    to delete an assigned element in the list
+17) sorted() vs sort()
+    this two function are to sort a list by dictionary-order
+    but sorted() will make a new list, sort() will operate the exsiting list
+18) if we want to run a .py file in terminal, we can first write python, after we can import a python file and use 
+    the functions in the file
+19) 
+    
     

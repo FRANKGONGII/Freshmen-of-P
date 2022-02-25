@@ -1,7 +1,7 @@
 print("Mary has a little lab")
 
 # interesting
-print("Its fleece was white as %s." %'snow')
+print("Its fleece was white as %s." % 'snow')
 
 print("And everywhere that Mary went.")
 
