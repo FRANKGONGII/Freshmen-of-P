@@ -58,8 +58,32 @@
 17) sorted() vs sort()
     this two function are to sort a list by dictionary-order
     but sorted() will make a new list, sort() will operate the exsiting list
-18) if we want to run a .py file in terminal, we can first write python, after we can import a python file and use 
-    the functions in the file
-19) 
+18) if we want to run a .py file in terminal, we can first write "python", after we can import a python file and use 
+    the functions in the file; if we want to quit, input Ctrl + d
+19) in python, 'else if' in c == 'elif'
+20) in choose-sentences, we can add more choose-sentence, which we call nested sentences
+21) list:
+    how to build up a list? 
+    hairs = ['brown', 'blond','green'] / weight = [ 1, 2, 3, 4 ]
+    1. if we want to get a or many elements in a list
+       we can write list[1] (get the second one) / list[1:5] (get the second to fifth one) -> list[m:n] (last one n-1)
+       list[-1] (get the last one element in the list) / list[1:] (get the elements from the second element)
+    2. methods: 1. .append() : use it to add an element at the end of the list
+                2. del : use it to delete elements 
+                3. .count() : count how many times one element appear in the list
+                4. alist.expend(blist) : add b to the end of a
+                5. list.index(x[, start[, end]]) : return the index or fault (the first index)
+                6. list.insert(index, obj) : insert element to an assigned place
+                7. list.pop([index=-1]) : index = -1 -> pop the last one
+                8. list.remove(obj) : remove the first matched item
+                9. list.reverse() : change the order in the element
+                10. list.sort(cmp=None, key=None, reverse=False):
+                    reverse = True decresing order， reverse = False increasing order(default)
+    3. list-operators : + : combine lists [1, 2, 3] + [4, 5, 6] / * : repeat lists [1, 2, 3] * 2
+    4. check elements: 3 in [1, 2, 3] -> True
+22) range()
+    range(start, end, (step)), we often use range() in for-loop
+23) 
+    
     
     
